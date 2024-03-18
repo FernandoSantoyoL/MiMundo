@@ -1,0 +1,28 @@
+/* apartados */
+/* ----> tabla */
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__header {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C3C3C;
+}
+
+.table__body {
+    width: 85%;
+    max-height: 90vh;
+    background-color: var(--cianOscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    gap: 1rem
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mundo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/apartados.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- sitio  -->
+        <div class="sitio">
+            <ion-icon class="sitio__icono" name="earth-outline" id="world"></ion-icon>
+            <span class="sitio__span">Mi Mundo</span>
+        </div>
+        <!-- boton -->
+        <button class="boton">
+            <ion-icon class="boton__icono" name="add-outline"></ion-icon>
+            <span class="boton__span">Inbox</span>
+        </button>
+        <!-- navegacion -->
+        <nav class="nav">
+            <ul>
+                <li class="nav__item">
+                    <a class="link" href="index.html">
+                        <ion-icon class="link__icono" name="home-outline"></ion-icon>
+                        <span class="link__span">Inicio</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="categorias.html">
+                        <ion-icon class="link__icono " name="shirt-outline"></ion-icon>
+                        <span class="link__span">Categorias</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="apartados.html">
+                        <ion-icon class="link__icono " name="cube-outline"></ion-icon>
+                        <span class="link__span">Apartados</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="guardados.html">
+                        <ion-icon class="link__icono " name="bookmark-outline"></ion-icon>
+                        <span class="link__span">Guardados</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="favoritos.html">
+                        <ion-icon class="link__icono " name="star-outline"></ion-icon>
+                        <span class="link__span">Favoritos</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="mensajes.html">
+                        <ion-icon class="link__icono" name="mail-outline"></ion-icon>
+                        <span class="link__span">Mensajes</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="link" href="nosotros.html">
+                        <ion-icon class="link__icono" name="information-circle-outline"></ion-icon>
+                        <span class="link__span">Nosotros</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- linea -->
+        <div class="linea"></div>
+
+        <!-- usuario -->
+        <div class="usuario">
+            <ion-icon class="usuario__icono" name="person-circle-outline"></ion-icon>
+            <div class="usuario__info">
+                <div class="usuario__nombre-email">
+                    <div class="usuario__nombre">sldeny</div>
+                    <div class="usuario__email">sldeny@gmail.com</div>
+                </div>
+                <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="header contenedor">
+        <div class="buscador">
+            <input class="buscador__texto" type="text" placeholder="Busca aqui">
+            <button class="buscador__boton">
+                <ion-icon class="buscador__icono" name="search-outline"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <!-- imagen principal -->
+    <section class="contenedor">
+        <div class="imagen__principal"></div>
+    </section>
+
+    <!-- main -->
+    <main class="contenedor table">
+        <section class="table__header">
+            <h1 class="nosotros__titulo__nombre">Apartados</h1>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> id </th>
+                        <th> Nombre </th>
+                        <th> descripcion </th>
+                        <th> Precio </th>
+                        <th> Estado </th>
+                        <th> Fecha </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> Sueter </td>
+                        <td> Sueter de osito </td>
+                        <td> 200 </td>
+                        <td> Activo </td>
+                        <td> 11/03/2024 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+
+    <footer class="footer contenedor">
+        <h3>DerechosReservados <span>Mi Mundo</span></h3>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
